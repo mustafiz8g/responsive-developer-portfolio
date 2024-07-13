@@ -201,7 +201,7 @@ nav li a{
    }
 
   @media screen and (max-width:576px) {
-     .skill-container,.resume-container,footer{
+     .skill-container,.resume-container,footer, .about-items{
       flex-direction: column;
      }
      .resume-container{
@@ -220,5 +220,11 @@ nav li a{
      }
      footer input[type="text"], footer input[type="email"] , footer textarea{
       width: calc(100% - 40px);
+     }
+     .about{
+      padding: 20px;
+     }
+     .about-items{
+     
      }
   }
